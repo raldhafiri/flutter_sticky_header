@@ -5,7 +5,10 @@ version: 0.6.6
 dependencies:
   flutter:
     sdk: flutter
-  value_layout_builder: ^0.3.0
+  value_layout_builder:
+    git:
+      url: https://github.com/raldhafiri/value_layout_builder.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
